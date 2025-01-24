@@ -8,7 +8,6 @@ import Besigye from "./assets/Besigye.jpg";
 import PLE from "./assets/ple.webp";
 import Coach from "./assets/coach.jpg"
 
-const content = {};
 const newsFeed = [
   {
     article: "Police cancel King Saha’s music concert",
