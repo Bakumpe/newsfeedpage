@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+ margin: auto;
+ padding: 10px;
+ width: 100%;
+ background: linear-gradient(#141414, #b1abab);
+color: rgb(232, 233, 239);
+cursor: pointer;
+}
+.top{
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+.top h1{
+  font-size: 3em;
+  font-weight: 700;
+}
+.search{
+  font-size: 1.5em;
+}
+.search input{
+  padding: 10px;
+  margin: auto 20px;
+  width: 500px;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.subtitles{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.402);
+}
+.subtitles p{
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.feedBox{
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(243, 245, 245), rgb(215, 212, 212));
+
+}
+.feedBox h2{
+  margin: 15px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em; 
+  width: 100%;
+  background: #b1abab;
+}
+.feedBox h4{
+  position: relative;
+  left: 60%;
+  display: flex;
+  width: 300px;
+  color: rgb(7, 6, 6);
+  justify-content: space-between;
+}
+.feedSpace{
+  display: flex;
+  gap: 20px;
+}
+.image{
+  width: 50%;
+  height: 55vh;
+  border: 2px solid rgb(151, 146, 146);
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px #141414
+}
+.image img{
+  display: flex;
+  padding: 1px;
+  width: 100%;
+  height: 55vh;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feeds{
+  display: flex;
+
+}
+.newsFeed{
+  width: 75%;
+ 
+}
+.popularFeeds{
+  width: 24%;
+}
+.popularFeed{
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient( rgb(215, 212, 212), rgb(243, 245, 245));
+}
+.popularFeeds h2{
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+.articles{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: 169px;
+  border: 2px solid black;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.articles h3{
+  width: 100%;
+  height: 100%;
+  text-wrap: wrap;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-right: 2px solid rgb(27, 27, 25);
+}
+.articles p{
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.buttonNP{
+  width: 100px;
+  height: 40px;
+  background: linear-gradient( rgb(17, 34, 130), rgb(47, 133, 133));
+  color: aliceblue;
+  font-size: 1em;
+}
+.buttonNextP{
+  display: flex;
+  gap: 20px;
+}
+.readmorebtn{
+  padding: 10px;
+  background: linear-gradient( rgb(17, 34, 130), rgb(47, 133, 133));
+  color: aliceblue;
+  font-size: 1em;
+  box-shadow: 4px 4px 10px #141414
+}
+.content{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.content2 p{
+  font-size: 16px;
+}
+.content1{
+  padding: 20px;
+  width: 100%;
+  height: 60vh;
+  font-size: 2em;
+  overflow: hidden;
+  overflow-y: scroll;
+  text-wrap: wrap;
+}
