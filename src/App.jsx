@@ -3,7 +3,7 @@ import "./App.css";
 import NewsFeed from "./components/NewsFeed";
 import Header from "./components/Header";
 import PopularFeed from "./components/Popular";
-import Kingsaha from "./assets/Kingsaha.jpg";
+import Kingsaha from "./assets/kingsaha.jpg";
 import Besigye from "./assets/Besigye.jpg";
 import PLE from "./assets/ple.webp";
 import Coach from "./assets/coach.jpg"
